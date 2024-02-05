@@ -1,0 +1,27 @@
+/* a{
+    font-family:  monospace;
+    color: black;
+}
+   p{
+    font-family: 'Courier New';
+    color: blueviolet;
+   }
+   nav{ display:flex;
+    justify-content: space-between;
+
+
+}
+@media (max-width:600px) {
+    nav{ display:flex;
+ flex-direction: column;     */
+    
+    /* }
+     */
+#container {
+    display: grid;
+    /* grid-template-columns: 100xp 200xp 300xp;
+    grid-template-rows: 100xp 200xp 300xp; */
+    grid-template-columns:100xp 200xp 300xp ;
+    grid-template-rows: 100xp 200xp 300xp;
+
+}
